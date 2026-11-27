@@ -28,8 +28,8 @@ export default {
     owner: null, // optional
     foundingYear: null,
 
-    phone: null, // TODO: to be provided,
-    phoneE164: null,
+    phone: '(424) 901-0458',
+    phoneE164: '+14249010458',
     email: null, // optional — hidden until set; visitors use the contact form
 
     /**
@@ -40,10 +40,10 @@ export default {
      */
     locationType: 'office',
     address: {
-      streetAddress: null, // TODO: full address to be provided
+      streetAddress: '835 Wilshire Blvd', // real, staffed office — add suite if any
       addressLocality: 'Los Angeles',
       addressRegion: 'CA',
-      postalCode: null,
+      postalCode: '90017',
       addressCountry: 'US',
     },
     geo: null, // real coordinates of the office only

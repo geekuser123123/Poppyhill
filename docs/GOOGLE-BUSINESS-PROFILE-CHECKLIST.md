@@ -8,7 +8,7 @@ Use this **after** the website is live and Search Console is verified.
 > office, mailbox or unstaffed coworking address. Google may suspend the profile, and
 > it can damage trust.
 
-## Poppyhill (Los Angeles, CA) notes
+## Poppyhill (Los Angeles, CA — downtown, Wilshire Blvd) notes
 
 - **Name:** **Poppyhill**, exactly as on the website. File a **Fictitious Business Name** statement with the Los Angeles
   County Registrar-Recorder/County Clerk (and complete the newspaper publication) before creating the profile (if "Poppyhill" isn't the legal name).
@@ -16,9 +16,9 @@ Use this **after** the website is live and Search Console is verified.
   name, photos and branding distinct, and don't create a second profile at this address.
 - **Business type:** **Local store / storefront**: clients visit the office during the posted
   hours. Google requires a **complete, real street address that is staffed during those hours**.
-- **Address:** **[street address, Los Angeles, CA ZIP — to be provided]**, entered exactly as on the website.
+- **Address:** **835 Wilshire Blvd, Los Angeles, CA 90017**, entered exactly as on the website.
   If the office has a suite number, add it to both.
-- **Phone:** **[phone — to be provided]**.
+- **Phone:** **(424) 901-0458**.
 - **Hours:** Monday–Friday, 9:00 AM – 5:00 PM.
 - **Primary category:** **Financial consultant**.
 - **Secondary category:** **Business administration service**.

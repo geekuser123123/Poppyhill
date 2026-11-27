@@ -60,7 +60,7 @@ export const SERVICES = [
   { key: 'solo401k', id: 'solo-401k-education', title: 'Solo 401(k) Education', icon: 'person', group: 'education',
     short: 'Eligibility, both contribution roles, Roth choices and annual filing.' },
   { key: 'consultation', id: 'meetings', title: 'Office Meetings', icon: 'chat', group: 'education',
-    short: 'Sit down with us at our Los Angeles office, by appointment.' },
+    short: 'Sit down with us at our Wilshire Boulevard office in downtown Los Angeles, by appointment.' },
 ].filter((s) => config.services[s.key]?.offered);
 
 // ------------------------------------------------------------------ icons

@@ -68,7 +68,7 @@ function bookByPhone() {
       <ul class="book-steps">
         <li><strong>Call us</strong> Monday – Friday, 9:00 AM – 5:00 PM.</li>
         <li><strong>Tell us briefly</strong> about your business and your plan, new or existing.</li>
-        <li><strong>Pick a time</strong> to meet at our Los Angeles office.</li>
+        <li><strong>Pick a time</strong> to meet at our Wilshire Boulevard office.</li>
       </ul>
       ${B.phone ? `<a class="btn btn--accent btn--lg btn--block" href="${phoneHref()}">${icon('phone')} Call ${esc(B.phone)}</a>` : ''}
       <p class="fine">Office meetings are by appointment. Please don’t share account numbers or other sensitive details by phone message.</p>`;

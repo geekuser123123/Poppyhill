@@ -5,10 +5,10 @@ Run `node build.mjs` to see what's still missing. Nothing on the site has been i
 ## Already set
 
 - [x] Name: **Poppyhill**
-- [ ] Phone: **to be provided**
+- [x] Phone: **(424) 901-0458**
 - [x] Site URL: `https://poppyhill.kevin-c4h.workers.dev`
 - [x] Hours: **Monday–Friday, 9:00 AM – 5:00 PM (Pacific Time)**, office meetings by appointment
-- [x] Business type: **storefront office** at **[street address, Los Angeles, CA ZIP — to be provided]** (Google Business Profile "Local store")
+- [x] Business type: **storefront office** at **835 Wilshire Blvd, Los Angeles, CA 90017** (Google Business Profile "Local store")
 - [x] Services confirmed: plan setup, records and valuations, Form 5500-EZ preparation, ongoing
       support, Self-Directed and Solo 401(k) education, and office meetings
 - [x] Role: administrative support alongside the client's plan provider, at the sponsor's

@@ -6,18 +6,18 @@ const EDU = SERVICES.filter((s) => s.group === 'education');
 
 const faqs = [
   { q: 'What does Poppyhill do?', a: '<p>Poppyhill provides administrative support and education for Solo and self-directed 401(k) plans: setup alongside the provider you choose, plan records and year-end values, Form 5500-EZ preparation, and year-round help. You remain the plan sponsor and make every decision.</p>' },
-  { q: 'Where do we meet?', a: '<p>At the Poppyhill office in Los Angeles, Monday through Friday, by appointment. If you’d rather talk first, we’re happy to start with a phone call.</p>' },
+  { q: 'Where do we meet?', a: '<p>At the Poppyhill office at 835 Wilshire Boulevard in downtown Los Angeles, Monday through Friday, by appointment. If you’d rather talk first, we’re happy to start with a phone call.</p>' },
   { q: 'Do you pick or recommend investments?', a: '<p>No. Investment decisions are yours. We keep the plan’s paperwork in order and explain the rules that apply.</p>' },
   { q: 'Do you hold my retirement money?', a: '<p>No. Plan assets stay in accounts titled to your plan at the institutions you choose. We never hold, move or invest plan money.</p>' },
   { q: 'Who can open a Solo 401(k)?', a: '<p>Generally a business with self-employment or business income and no eligible employees besides the owners and their spouses. Sole proprietors, LLCs, partnerships and corporations can all qualify; hiring can change that.</p>' },
   { q: 'When is Form 5500-EZ required?', a: '<p>Generally for any year a one-participant plan’s total assets exceed $250,000 at year-end, and always in the plan’s final year. For calendar-year plans it’s generally due July 31, extendable with Form 5558.</p>' },
   { q: 'What can a self-directed 401(k) hold?', a: '<p>What the plan document permits and federal law doesn’t prohibit — commonly real estate, private loans, private company interests, qualifying bullion and public securities. Collectibles are out, and dealings with “disqualified persons” such as you or close family are prohibited.</p>' },
   { q: 'Is this investment, legal or tax advice?', a: '<p>No. It’s administrative support and general education. For individualized advice, consult a licensed financial professional, CPA or attorney — we’ll gladly coordinate with yours.</p>' },
-  { q: 'How do I get started?', a: cfg.form.webhookUrl ? `<p>${B.phone ? `Call ${phoneHtml()} or use` : 'Use'} the <a href="#contact">meeting request form</a> below.</p>` : `<p>Call ${phoneHtml()}, Monday through Friday, 9:00 AM to 5:00 PM. We’ll set a time to meet at our Los Angeles office. Details are in the <a href="#contact">contact section</a> below.</p>` },
+  { q: 'How do I get started?', a: cfg.form.webhookUrl ? `<p>${B.phone ? `Call ${phoneHtml()} or use` : 'Use'} the <a href="#contact">meeting request form</a> below.</p>` : `<p>Call ${phoneHtml()}, Monday through Friday, 9:00 AM to 5:00 PM. We’ll set a time to meet at our Wilshire Boulevard office. Details are in the <a href="#contact">contact section</a> below.</p>` },
 ];
 
 const STEPS = [
-  ['Book a visit', 'Call or send the form, and we’ll set a time at our office — or start with a short phone call.'],
+  ['Book a visit', 'Call or send the form, and we’ll set a time at our Wilshire Boulevard office — or start with a short phone call.'],
   ['Look at the whole picture', 'We review your business, any existing plan, and where you’d like support.'],
   ['Agree the scope', 'In writing: what we handle, what your provider handles, and what stays with you.'],
   ['Set it up right', 'New plan: setup with your provider. Existing plan: records gathered and gaps closed.'],
@@ -48,7 +48,7 @@ export default {
     <div class="hero__copy">
       <p class="kicker kicker--light">Los Angeles, California · ${esc(B.tagline)}</p>
       <h1 id="hero-h">A clear path for your <em><span class="nw">self-directed</span> 401(k).</em></h1>
-      <p class="hero__lead">Poppyhill helps Los Angeles business owners and self-employed professionals set up and run Solo and self-directed 401(k) plans — careful records, Form 5500-EZ handled on schedule, and plain answers. Visit us at our Los Angeles office, by appointment.</p>
+      <p class="hero__lead">Poppyhill helps Los Angeles business owners and self-employed professionals set up and run Solo and self-directed 401(k) plans — careful records, Form 5500-EZ handled on schedule, and plain answers. Visit us at our downtown office on Wilshire Boulevard.</p>
       <div class="btn-row">
         <a class="btn btn--accent btn--lg" href="#contact">Book an Office Visit</a>
         ${B.phone ? `<a class="btn btn--glass btn--lg" href="${phoneHref()}">${icon('phone')} ${esc(B.phone)}</a>` : `<a class="btn btn--glass btn--lg" href="#services">See services</a>`}
@@ -157,7 +157,7 @@ export default {
       <p class="kicker">About Poppyhill</p>
       <h2 id="about-h">Named for California’s golden hills</h2>
       <p class="lead">Each spring, California poppies turn the hills around Los Angeles bright orange. The state flower is tough and hardy — it thrives in dry ground and comes back year after year. Poppyhill brings that same steady resilience to your retirement plan: careful records, deadlines met, and straight answers.</p>
-      <p>We work with consultants, entertainment and creative professionals, clinicians, contractors, real estate investors and small firms across Los Angeles, with meetings at our office by appointment.</p>
+      <p>We work with consultants, entertainment and creative professionals, clinicians, contractors, real estate investors and small firms across Los Angeles, with meetings at our downtown Wilshire Boulevard office by appointment.</p>
       <ul class="standards">
         <li><strong>Clear scope.</strong> We agree up front what we handle and what stays with you and your provider.</li>
         <li><strong>Your decisions stay yours.</strong> We aren’t a fiduciary, trustee, custodian, registered investment adviser or broker-dealer, and we don’t give legal or tax advice.</li>
@@ -168,11 +168,11 @@ export default {
   </div>
 </section>
 
-${ctaBand({ heading: 'Bring your plan questions to the office.', text: 'Book a visit with Poppyhill in Los Angeles — new plan or existing one.', button: 'Book an Office Visit' })}
+${ctaBand({ heading: 'Bring your plan questions to Wilshire Boulevard.', text: 'Book a visit with Poppyhill in Los Angeles — new plan or existing one.', button: 'Book an Office Visit' })}
 
 <section class="section" id="contact" aria-labelledby="contact-h">
   <div class="container">
-    <div class="head"><p class="kicker">Visit &amp; contact</p><h2 id="contact-h">Book an office visit</h2><p>${cfg.form.webhookUrl ? 'Send a few details and we’ll call to set a time at our Los Angeles office.' : 'Call us to set a time at our Los Angeles office. Meetings are by appointment, Monday through Friday.'}</p></div>
+    <div class="head"><p class="kicker">Visit &amp; contact</p><h2 id="contact-h">Book an office visit</h2><p>${cfg.form.webhookUrl ? 'Send a few details and we’ll call to set a time at our Wilshire Boulevard office.' : 'Call us to set a time at our Wilshire Boulevard office. Meetings are by appointment, Monday through Friday.'}</p></div>
   </div>
   ${contactBlock()}
 </section>

@@ -33,7 +33,7 @@ and won't send. Setup steps: `docs/N8N-FORM-SETUP.md`.
 
 ## Office
 
-**[street address — to be provided], Los Angeles, CA** (storefront office). Phone: **to be provided**.
+**835 Wilshire Blvd, Los Angeles, CA 90017** (storefront office). Phone: **(424) 901-0458**.
 
 ## Structure
 
