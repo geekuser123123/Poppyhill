@@ -15,7 +15,7 @@
 export default {
   site: {
     url: 'https://poppyhill.kevin-c4h.workers.dev', // no trailing slash — confirm after first Cloudflare deploy
-    googleSiteVerification: null, // Search Console HTML-tag "content" value
+    googleSiteVerification: 'FHClnWIFnOLiPqmtvjFgPWH4tZzrxuL-_ARe-RDqoVE', // Search Console HTML-tag "content" value
     locale: 'en_US',
     language: 'en-US',
   },
