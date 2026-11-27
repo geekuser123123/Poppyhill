@@ -1,0 +1,8 @@
+// Brand mark — a ringed round badge: a California poppy in bloom on rolling green hills under a warm sky.
+/** Logo mark SVG. `id` must be unique per page instance. */
+export function markSvg(id = 'pp', cls = 'brand__mark') {
+  return `<svg class="${cls}" viewBox="0 0 48 48" aria-hidden="true" focusable="false"><defs><linearGradient id="${id}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F7D9B0"/><stop offset="1" stop-color="#F2C08A"/></linearGradient><clipPath id="${id}c"><circle cx="24" cy="24" r="19"/></clipPath></defs><circle cx="24" cy="24" r="22.2" fill="none" stroke="#2E3A2F" stroke-width="1.6"/><circle cx="24" cy="24" r="19" fill="url(#${id})"/><g clip-path="url(#${id}c)"><path d="M0 34c8-7 16-9 25-6.4 8 2.4 15 1.4 23-2V48H0Z" fill="#7C8F55"/><path d="M0 39c10-5 19-6 28-4s14 1.4 20-.6V48H0Z" fill="#5E7340"/><path d="M24.3 41.5c-.2-5.4.2-10 1.2-13.6" stroke="#4A5C33" stroke-width="1.6" fill="none" stroke-linecap="round"/><path d="M25.4 30.6c-3.6-.2-7-1.6-8.4-5.2-1-2.8.2-5.6 2.4-6.8 1 2.4 2.8 4 5 4.6.2-3 1.2-5.6 3-7.6 1.8 2 2.8 4.6 3 7.6 2.2-.6 4-2.2 5-4.6 2.2 1.2 3.4 4 2.4 6.8-1.4 3.6-4.8 5-8.4 5.2Z" fill="#E8641C"/><path d="M27.4 29.6c-.4-3-1.2-5.6-2-7.4M27.4 29.6c1-3 1.8-5.4 2.8-7" stroke="#C24E10" stroke-width=".9" fill="none" stroke-linecap="round"/></g></svg>`;
+}
+
+export const markFile = () =>
+  markSvg('g', 'mark').replace('<svg class="mark"', '<svg xmlns="http://www.w3.org/2000/svg"').replace(' aria-hidden="true" focusable="false"', '');
